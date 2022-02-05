@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon ."
+  },
+  "dependencies": {
+    "@core/config": "1.0.0",
+    "@core/database": "0.1.0",
+    "@modules/statistics": "0.1.0",
+    "cors": "^2.8.5",
+    "express": ">=5.0.0-alpha.8",
+    "helmet": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@core/database",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "macotsuu",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "@core/config": "1.0.0"
+  }
+}

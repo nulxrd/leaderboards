@@ -1,0 +1,15 @@
+{
+  "name": "leaderboards",
+  "private": true,
+  "version": "0.1.0",
+  "author": "macotsuu",
+  "scripts": {
+    "dev": "yarn workspace backend dev"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "apps/*"
+    ]
+  }
+}

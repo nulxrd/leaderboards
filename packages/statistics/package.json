@@ -1,0 +1,11 @@
+{
+  "name": "@modules/statistics",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "author": "macotsuu",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": ">=5.0.0-alpha.8"
+  }
+}

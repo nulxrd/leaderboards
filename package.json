@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "author": "macotsuu",
   "scripts": {
-    "dev": "yarn workspace backend dev"
+    "dev": "yarn workspace backend dev",
+    "start": "yarn workspace backend start"
   },
   "workspaces": {
     "packages": [

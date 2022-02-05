@@ -5,15 +5,18 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "nodemon ."
+    "dev": "nodemon .",
+    "start": "pm2 start ecosystem.config.js --env production"
   },
   "dependencies": {
     "@core/config": "1.0.0",
     "@core/database": "0.1.0",
     "@modules/statistics": "0.1.0",
+    "@modules/authorization": "0.1.0",
     "cors": "^2.8.5",
     "express": ">=5.0.0-alpha.8",
-    "helmet": "^5.0.2"
+    "helmet": "^5.0.2",
+    "pm2": "^5.1.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

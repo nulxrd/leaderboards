@@ -42,6 +42,7 @@ CREATE TABLE `statistics` (
   UNIQUE KEY `id` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 ```
+* Add new token into tokens table 
 
 ### Installing
 
@@ -52,6 +53,11 @@ CREATE TABLE `statistics` (
 * Setup nginx as proxy server
 * Start application by typing yarn start
 
+### API
+
+* Making request
+  * Pass token to Authorization header
+  * Call /api/statistics?statisticName=[kill, death, score] (choose one)
 
 ## Version History
 

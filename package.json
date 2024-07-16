@@ -2,7 +2,10 @@
   "name": "leaderboards",
   "private": true,
   "version": "0.1.0",
-  "author": "macotsuu",
+  "author": {
+    "name": "Dominik Szamburski",
+    "url": "https://nulxrd.github.io/"
+  },
   "scripts": {
     "dev": "yarn workspace backend dev",
     "start": "yarn workspace backend start"

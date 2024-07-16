@@ -47,9 +47,9 @@ CREATE TABLE `statistics` (
 ### Installing
 
 * Clone this repository
-* Go to repostiory folder and type yarn install
+* Go to repository folder and type yarn install
 * Rename app/backend/config/default.js to production.js
-* Configure app/backend/cofig/production.js
+* Configure apps/backend/config/production.js
 * Setup nginx as proxy server
 * Start application by typing yarn start
 
